@@ -1,0 +1,52 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: brown;
+  padding: 16px;
+  text-align: center;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  padding: 16px;
+  text-align: center;
+  color: white;
+}
+
+.card {
+  background-color: #42a5f5;
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+button {
+  width: fit-content;
+  background-color: #0d47a1;
+  color: white;
+  font-size: 16px;
+  padding: 2px;
+  border: none;
+  cursor: pointer;
+}
+#cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 16px;
+  gap: 32px;
+}
+
+#inputContainer {
+  background-color: #26c6da;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
